@@ -3,18 +3,10 @@ import numpy as np
 import vtk
 from vtk.util.numpy_support import numpy_to_vtk, numpy_to_vtkIdTypeArray
 import math
-#import pyvista as pv
-#from pymeshfix._meshfix import PyTMesh
-#import pymeshfix as mf
-#from pymeshfix.examples import planar_mesh
-#from pymeshfix import MeshFix
-#from pygco import cut_from_graph
 import os
 from scipy.spatial import distance_matrix
 from sklearn import svm
 from sklearn.neighbors import KNeighborsClassifier
-#import trimesh
-
 
 class Easy_Mesh(object):
     def __init__(self, filename=None, warning=False):
