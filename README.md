@@ -1,10 +1,9 @@
 # Tooth Segmentation
 ## Tooth Segmentation
 ### ToothSegmentation
-![img](attributes.jpg)
-<img src="https://user-images.githubusercontent.com/2417792/56816446-9086d900-6811-11e9-9afa-ce3787d50558.png" width=750 />
+<img width="750" alt="Screen Shot 2022-01-06 at 1 26 20 PM" src="https://user-images.githubusercontent.com/6019935/150260947-4d8a8601-5cc0-4e6d-8890-d1ae2d5bae98.png">
 ## Setting up the project
-<img width="780" alt="Screen Shot 2022-01-06 at 1 26 20 PM" src="https://user-images.githubusercontent.com/6019935/150260947-4d8a8601-5cc0-4e6d-8890-d1ae2d5bae98.png">
+
 
 ### Cloning the repository:
 ### Environment setup
