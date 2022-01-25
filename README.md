@@ -28,3 +28,7 @@ https://drive.google.com/drive/folders/0B7EVK8r0v71pWGplNFhjc01NbzQ
 
 The script used to train a model is `train.py`. Here is the script we used to train our *best* model:
 ### Testing the models
+
+Achnowledgement:
+Our code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and 
+PointCloudLearningACD https://github.com/matheusgadelha/PointCloudLearningACD
