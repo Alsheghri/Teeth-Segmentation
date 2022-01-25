@@ -1,8 +1,6 @@
 """
-@Author: Yue Wang
-@Contact: yuewangx@mit.edu
-@File: model.py
-@Time: 2018/10/13 6:35 PM
+Reference PointCloudLearningACD
+https://github.com/matheusgadelha/PointCloudLearningACD
 """
 
 
