@@ -32,3 +32,4 @@ The script used to train a model is `train.py`. Here is the script we used to tr
 Achnowledgement:
 Our code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and 
 PointCloudLearningACD https://github.com/matheusgadelha/PointCloudLearningACD
+use the requirements files 
