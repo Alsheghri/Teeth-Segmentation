@@ -1,3 +1,8 @@
+'''
+Reference MeshSegNet 
+https://github.com/Tai-Hsien/MeshSegNet
+'''
+
 import torch
 import numpy as np
 
