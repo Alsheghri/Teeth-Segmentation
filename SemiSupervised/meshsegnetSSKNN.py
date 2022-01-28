@@ -1,3 +1,8 @@
+'''
+Reference MeshSegNet 
+https://github.com/Tai-Hsien/MeshSegNet
+'''
+
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
