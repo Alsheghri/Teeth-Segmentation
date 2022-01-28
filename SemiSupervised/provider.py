@@ -1,3 +1,8 @@
+"""
+Reference PointCloudLearningACD
+https://github.com/matheusgadelha/PointCloudLearningACD
+"""
+
 import numpy as np
 
 def normalize_data(batch_data):
