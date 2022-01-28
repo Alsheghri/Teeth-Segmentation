@@ -1,6 +1,7 @@
-'
-MeshSegNet https://github.com/Tai-Hsien/MeshSegNet an
-
+'''
+Reference MeshSegNet 
+https://github.com/Tai-Hsien/MeshSegNet
+'''
 from torch.utils.data import Dataset
 import pandas as pd
 import torch
