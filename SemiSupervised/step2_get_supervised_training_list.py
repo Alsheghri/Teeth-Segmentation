@@ -1,3 +1,8 @@
+'''
+Reference MeshSegNet 
+https://github.com/Tai-Hsien/MeshSegNet
+'''
+
 import numpy as np
 import os
 from sklearn.model_selection import KFold
@@ -62,7 +67,6 @@ if __name__ == '__main__':
                 file.write(f+'\n')
 
         print('--------------------------------------------')
-        print('with flipped samples:', with_flip)
         print('# of train:', len(train_name_list))
         print('# of validation:', len(val_name_list))
         print('--------------------------------------------')
