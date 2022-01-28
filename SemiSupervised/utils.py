@@ -1,3 +1,8 @@
+'''
+Reference MeshSegNet 
+https://github.com/Tai-Hsien/MeshSegNet
+'''
+
 from visdom import Visdom
 import socket
 import numpy as np
