@@ -1,3 +1,8 @@
+'''
+Reference MeshSegNet 
+https://github.com/Tai-Hsien/MeshSegNet
+'''
+
 import sys
 import numpy as np
 import vtk
