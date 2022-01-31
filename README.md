@@ -36,7 +36,7 @@ https://drive.google.com/drive/folders/0B7EVK8r0v71pWGplNFhjc01NbzQ
 
    
 ### Testing the models
-6. Run step3_trainingSSKNN.py to test the model on the test data located in:
+6. Run step4_test.py to test the model on the test data located in:
    Teeth-Segmentation/Labeled Test Data/
    
 We provide pre-trained supervised and semisupervised segmentation models as well as the results for testing the two models on the test data in the directory:
