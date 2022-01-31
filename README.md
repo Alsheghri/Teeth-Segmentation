@@ -22,22 +22,19 @@ Otherwise you can use the file requirements_pip.txt to install the dependencies 
 
 ### Getting the data
 
-1. You can download the dataset from the Google Drive here:
-https://drive.google.com/drive/folders/0B7EVK8r0v71pWGplNFhjc01NbzQ
-
-2. Download the training data into some directory which is appropriate. 
-   The Train data are located in the following folders:
+Download the training data into some directory which is appropriate. 
+The Train data are located in the following folders:
    - Teeth-Segmentation/SemiSupervised/Selfsupervised Clustered Train Data/
    - Teeth-Segmentation/SemiSupervised/Supervised Labeled Train Data/
  ## Running experiments
-3. Run step1_data_augmentation.py to generate augmented data
-4. Run step1_data_augmentation.py to generate train and valid lists
+1. Run step1_data_augmentation.py to generate augmented data
+2. Run step1_data_augmentation.py to generate train and valid lists
 ### Training the models
 
-5. Run step3_trainingSSKNN.py to train the model.
+3. Run step3_trainingSSKNN.py to train the model.
    
 ### Testing the models
-6. Run step4_test.py to test the model on the test data located in:
+4. Run step4_test.py to test the model on the test data located in:
    Teeth-Segmentation/SemiSupervised/Labeled Test Data/
    
 We provide pre-trained supervised and semisupervised segmentation models as well as the results for testing the two models on the test data in the directory:
