@@ -12,8 +12,8 @@ This repository is still under construction ...
 1. Install Anaconda, if not already done, by following these instructions:
 https://docs.anaconda.com/anaconda/install/linux/  
 
-2. Create a conda environment using the `environment.yaml` file, to install the dependencies:  
-`$ conda env create -f environment.yaml`
+2. Create a conda environment using the `environment.yml` file, to install the dependencies:  
+`$ conda env create -f environment.yml`
 
 3. Activate the new conda environment:
 `$ conda activate deepfashion`
