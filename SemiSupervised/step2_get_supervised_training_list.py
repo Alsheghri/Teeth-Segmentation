@@ -15,17 +15,16 @@ if __name__ == '__main__':
     seed_value = 1234
     random.seed(seed_value)
     np.random.seed(seed_value)
-    data_path = 'C:/Users/Poly/OneDrive - polymtl.ca/Documents - DentalAI/Données/Data to publish/Experiment/Code/SelfSupervised/Supervised Train registered_vtp'
-    outputPath = './Supervised Train registered_vtp'
+    data_path = 'Path for the Augmented Supervised Train VTP Files'
+    outputPath = 'Define Output Path'
 
     num_augmentations = 20
     train_size = 0.8
-    with_flip = True
-
+    
     # List contains all the arches with their augmentation
-    mesh_list = [i for i in os.listdir(data_path) if os.path.isfile(os.path.join(data_path, i)) and 'vtp' in i]  # and 'Lower' in i
+    mesh_list = [i for i in os.listdir(data_path) if os.path.isfile(os.path.join(data_path, i)) and 'vtp' in i]
     # List containing unique cases without any augmentation
-    sample_list = [i.split('_')[0] for i in mesh_list if 'A' not in i and 'reflected' not in i]
+    sample_list = [i.split('_')[0] for i in mesh_list if 'A' not in i]
 
     sample_name = 'A{0}_Sample_0{1}_d.vtp'
 
@@ -39,10 +38,9 @@ if __name__ == '__main__':
         i_cv += 1
         print('Round:', i_cv)
 
-        test_list = []# now we are not creating a test set
         train_list, val_list = sample_list[train_idx], sample_list[val_list]
 
-        print('Training list:\n', train_list, '\nValidation list:\n', val_list, '\nTest list:\n', test_list)
+        print('Training list:\n', train_list, '\nValidation list:\n', val_list)
 
         #training
         train_name_list = []
