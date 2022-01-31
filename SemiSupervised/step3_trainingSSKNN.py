@@ -23,12 +23,12 @@ if __name__ == '__main__':
 
     torch.cuda.set_device(utils.get_avail_gpu()) # assign which gpu will be used (only linux works)
     use_visdom = False # if you don't use visdom, please set to False
+ 
+    train_list = './Supervised Train registered_vtp/train_list_3.csv' # need to define
+    val_list = './Supervised Train registered_vtp/val_list_3.csv' # need to define
 
-    train_list = './Supervised Train registered_vtp/train_list_3.csv'
-    val_list = './Supervised Train registered_vtp/val_list_3.csv'
-
-    KNN_ROOT = './Selfsupervised Clustered VTP/'
-    model_path = '/home/ammar15/scratch/semisupervisedTraining/models/'
+    KNN_ROOT = './Selfsupervised Clustered Train Data/' # need to define
+    model_path = './models/' # need to define
     model_name = 'semisupervisedTrainingModel' # need to define
     checkpoint_name = 'latest_checkpoint.tar'
 
