@@ -17,9 +17,9 @@ from getCurvatureChannels import *
 
 if __name__ == '__main__':
 
-    i_fold = 40
+    i_fold = 1
     model_path = './models'
-    model_name = 'Mesh_Segementation_MeshSegNet_15_classes_4samples_Upper_missingTooth_K14_best_60Epochs.tar'
+    model_name = 'Teeth_Segementation.tar'
     mesh_path = './test/upper_test_cejep_missing'  # need to define
 
     test_list = [i for i in os.listdir(mesh_path) if '.vtp' in i]
