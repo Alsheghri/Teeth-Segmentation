@@ -28,7 +28,7 @@ The Train data are located in the following folders:
    - Teeth-Segmentation/SemiSupervised/Supervised Labeled Train Data/
  ## Running experiments
 1. Run step1_data_augmentation.py to generate augmented data
-2. Run step1_data_augmentation.py to generate train and valid lists
+2. Run step2_get_supervised_training_list.py to generate train and valid lists
 ### Training the models
 
 3. Run step3_trainingSSKNN.py to train the model.
