@@ -15,6 +15,8 @@ https://docs.anaconda.com/anaconda/install/linux/
 2. Create a conda environment using the `environment.yml` file, to install the dependencies:  
 `$ conda env create -f environment.yml`
 
+Otherwise you can use the file requirements_pip.txt to install the dependencies using pip. 
+
 3. Activate the new conda environment:
 `$ conda activate deepfashion`
 
@@ -45,4 +47,3 @@ Teeth-Segmentation/SemiSupervised/models/
 Achnowledgement:
 The code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and 
 PointCloudLearningACD https://github.com/matheusgadelha/PointCloudLearningACD
-Use one of the two provided requirements files. 
