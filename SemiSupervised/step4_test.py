@@ -20,7 +20,7 @@ if __name__ == '__main__':
     i_fold = 1
     model_path = './models'
     model_name = 'Teeth_Segementation.tar'
-    mesh_path = './test/upper_test_cejep_missing'  # need to define
+    mesh_path = './Labeled Test Data'  # need to define
 
     test_list = [i for i in os.listdir(mesh_path) if '.vtp' in i]
     test_mesh_filename = 'Sample_{0}_d.vtp'
