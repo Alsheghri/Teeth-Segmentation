@@ -6,7 +6,6 @@
 
 This repository is still under construction ... 
 
-### Cloning the repository:
 ### Environment setup
 
 1. Install Anaconda, if not already done, by following these instructions:
@@ -44,3 +43,11 @@ Achnowledgement:
 
 The code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and 
 PointCloudLearningACD https://github.com/matheusgadelha/PointCloudLearningACD
+
+### Original Data
+Original data with original resolution could be downloaded from the following link:
+
+
+### Citation
+If you find this repository useful, please cite our paper: 
+Alsheghri A. A., Ghadiri F., Zhang Y, Lessard O., Keren J., Cheriet F., Guibault F., Semi-supervised segmentation of tooth from 3D Scanned Dental Arches, SPIE medical imaging (Paper No.	12032-101), San Diego, United States, 2022.
