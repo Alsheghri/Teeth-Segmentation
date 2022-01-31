@@ -17,20 +17,32 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 3. Activate the new conda environment:
 `$ conda activate deepfashion`
+
 ### Getting the data
 
 1. You can download the dataset from the Google Drive here:
 https://drive.google.com/drive/folders/0B7EVK8r0v71pWGplNFhjc01NbzQ
 
-2. Extract the dataset into some directory which is appropriate
+2. Download the training data into some directory which is appropriate. 
+   The Train data are located in the following folders:
+   - Teeth-Segmentation/SemiSupervised/Selfsupervised Clustered Train Data/
+   - Teeth-Segmentation/SemiSupervised/Supervised Labeled Train Data/
  ## Running experiments
-
+3. Run step1_data_augmentation.py to generate augmented data
+4. Run step1_data_augmentation.py to generate train and valid lists
 ### Training the models
 
-The script used to train a model is `train.py`. Here is the script we used to train our *best* model:
+5. Run step3_trainingSSKNN.py to train the model.
+
+   
 ### Testing the models
+6. Run step3_trainingSSKNN.py to test the model on the test data located in:
+   Teeth-Segmentation/Labeled Test Data/
+   
+We provide pre-trained supervised and semisupervised segmentation models as well as the results for testing the two models on the test data in the directory:
+Teeth-Segmentation/SemiSupervised/models/
 
 Achnowledgement:
-Our code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and 
+The code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and 
 PointCloudLearningACD https://github.com/matheusgadelha/PointCloudLearningACD
-use the requirements files 
+Use one of the two provided requirements files. 
