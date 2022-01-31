@@ -1,10 +1,10 @@
-# This code will augment the data in small ranges because they are already registered
+# This code will augment the data in small ranges because they are already registered using oriented bounding box registration
 
 from easy_mesh_vtk import *
 
 if __name__ == "__main__":
 
-    data_path = 'C:/Users/Poly/OneDrive - polymtl.ca/Documents - DentalAI/Données/Data to publish/Experiment/Code/SelfSupervised/Supervised Train registered_vtp'
+    data_path = 'Path for Supervised Training VTP files'
 
     # Augmentation
     mesh_list = [i for i in os.listdir(data_path) if
