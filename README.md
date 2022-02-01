@@ -17,7 +17,7 @@ https://docs.anaconda.com/anaconda/install/linux/
 Otherwise you can use the file requirements_pip.txt to install the dependencies using pip. 
 
 3. Activate the new conda environment:
-`$ conda activate deepfashion`
+`$ conda activate TeethSeg`
 
 ### Getting the data
 
