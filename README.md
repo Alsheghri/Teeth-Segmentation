@@ -45,8 +45,7 @@ The code is inspired by MeshSegNet https://github.com/Tai-Hsien/MeshSegNet and
 PointCloudLearningACD https://github.com/matheusgadelha/PointCloudLearningACD
 
 ### Original Data
-Original data with original resolution could be downloaded from the following link:
-
+Original data with original resolution will soon be available for download.
 
 ### Citation
 If you find this repository useful, please cite our paper: 
