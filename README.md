@@ -1,5 +1,12 @@
 # Tooth Segmentation
 ## Tooth Segmentation
+Created by Ammar Alsheghri, Farnoosh Ghadiri, Ying Zhang, Olivier Lessard, Julia Keren, Farida Cheriet, Francois Guibault
+
+[arXiv] [Dataset] [Models]
+
+This repository contains PyTorch implementation for Semi-supervised segmentation of tooth from 3D Scanned Dental Arches (SPIE 2022).
+
+Dental offices tackle thousands of dental reconstructions every year. Complexity and abnormalities in dentition make segmentation of an optical scan a challenging manual task that takes 45 minutes on average. The present work improves the generalization of currently available deep learning segmentation model on 3D dental arches by introducing a new loss function to leverage unlabeled available data. The semi-supervised segmentation network is trained using a joint loss that combines a supervised loss of annotated input and a self-supervised loss of non-labeled input. Our results showed that combining self-supervised and supervised learning improved the segmentation score by 13 % compared with purely supervised learning for the same amount of labeled data. It is concluded that combining representations obtained from self-supervised learning with supervised learning improves the generalization of the 3D tooth segmentation model in the case of few available labeled data.
 ### ToothSegmentation
 <img width="750" alt="Screen Shot 2022-01-06 at 1 26 20 PM" src="https://user-images.githubusercontent.com/6019935/150260947-4d8a8601-5cc0-4e6d-8890-d1ae2d5bae98.png">
 ## Setting up the project
