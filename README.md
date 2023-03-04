@@ -2,7 +2,7 @@
 ## Tooth Segmentation
 Created by Ammar Alsheghri, Farnoosh Ghadiri, Ying Zhang, Olivier Lessard, Julia Keren, Farida Cheriet, Francois Guibault
 
-[arXiv](https://www.google.com) [Dataset] [Models]
+[arXiv]([https://www.google.com](https://arxiv.org/abs/2208.05539)) [Dataset] [Models]
 
 This repository contains PyTorch implementation for Semi-supervised segmentation of tooth from 3D Scanned Dental Arches (SPIE 2022).
 
